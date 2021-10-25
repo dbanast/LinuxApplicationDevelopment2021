@@ -11,6 +11,7 @@ int main (int argc, char *argv[]) {
   if (argc == 1) {
     printf("help\n" );
   }  
+  else {
   if (argc == 2) {
     n = atoi(argv[1]);
   }  
@@ -28,6 +29,7 @@ int main (int argc, char *argv[]) {
     for (i = m; i < n; i+=s) {
       printf("%d\n", i);
     }
+  }
   }
   
   return 0;
